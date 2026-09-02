@@ -15,8 +15,8 @@ body {
 /* start haeder */
 .header {
     background:
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../imgs/image_1\ \(1\).jpg");
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("../imgs/image_1\ \(1\).jpg");
     background-size: cover;
     height: 740px;
     background-position: center;
@@ -95,6 +95,7 @@ body {
 .service_mobile_icon {
     font-size: 85px;
     color: #0f3c77;
+    padding-top: 20px;
 }
 
 .service1 > h4 {
@@ -258,7 +259,6 @@ body {
     padding: 35px 20px;
     border-radius: 10px;
 }
-
 
 .plan_item_title {
     font-size: 20px;
@@ -461,7 +461,6 @@ body {
     margin: 20px 0;
 }
 
-
 /* end today */
 
 /* start join */
@@ -500,7 +499,7 @@ body {
     border-radius: 5px;
 }
 
-.join_link:hover{
+.join_link:hover {
     /* بزرگ شدن ملایم باکس */
     transform: translateY(-10px) scale(1.03);
     /* توضیح: translateY یعنی ۱۰ پیکسل بیاید بالا، scale یعنی ۳ درصد بزرگ شود */
@@ -513,38 +512,36 @@ body {
 
 /* start contact */
 
-.contact{
+.contact {
     background-color: #d6e6f2;
     padding: 70px 0;
 }
 
-.contact_box{
+.contact_box {
     width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
 }
 
-.contact_form{
+.contact_form {
     width: 45%;
 }
 
-
-.contact_form form{
+.contact_form form {
     background-color: #fff;
     padding: 40px 35px;
-    box-shadow: 0 20px 45px -10px rgba(0, 0, 0, .15);
+    box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
 
-
-.contact_form_title{
+.contact_form_title {
     font-size: 28px;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
-.input1{
+.input1 {
     display: block;
     width: 95%;
     padding: 10px 10px;
@@ -557,7 +554,7 @@ body {
     padding: 15px 10px;
 }
 
-.input2{
+.input2 {
     padding: 12px 45px;
     background-color: #1a57a5;
     color: white;
@@ -566,7 +563,7 @@ body {
     border-radius: 5px;
 }
 
-.contact_info_title{
+.contact_info_title {
     color: gray;
     display: block;
     font-size: 20px;
@@ -574,7 +571,7 @@ body {
     padding-top: 25px;
 }
 
-.contact_info_info{
+.contact_info_info {
     width: 50%;
     font-size: 15px;
     font-weight: 400;
@@ -583,16 +580,16 @@ body {
 
 /* start footer */
 
-footer{
+footer {
     background-color: #1a57a5;
 }
 
-.footer_box{
+.footer_box {
     width: 75%;
     margin: 0 auto;
 }
 
-.footer_icons{
+.footer_icons {
     text-align: center;
     list-style-type: none;
     display: flex;
@@ -600,35 +597,35 @@ footer{
     padding-top: 40px;
 }
 
-.footer_icon{
+.footer_icon {
     font-size: 40px;
     padding: 10px;
 }
 
-.footer_info{
+.footer_info {
     text-align: center;
     padding: 30px;
     font-weight: 300;
     color: white;
 }
 
-.p{
+.p {
     color: rgba(245, 7, 7, 0.911);
 }
 
-.footer_icons li a:hover{
+.footer_icons li a:hover {
     color: white;
 }
 
-.footer_icons li a{
-    color:  rgb(180, 180, 180);
+.footer_icons li a {
+    color: rgb(180, 180, 180);
 }
 
 /* end footer */
 
 /* start navbar */
 
-nav{
+nav {
     padding: 15px 0;
     width: 100%;
     position: absolute;
@@ -636,7 +633,7 @@ nav{
     left: 0;
 }
 
-.nav_box{
+.nav_box {
     width: 75%;
     margin: 0 auto;
     display: flex;
@@ -646,9 +643,7 @@ nav{
     padding: 12px;
 }
 
-
-
-.nav_brands a{
+.nav_brands a {
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -657,18 +652,15 @@ nav{
     text-align: center;
 }
 
-.nav_links{
+.nav_links {
     display: flex;
     align-items: center;
 }
 
-
-.nav_links a{
+.nav_links a {
     padding: 0 10px;
     color: white;
     text-decoration: none;
-
 }
-
 
 /* end navbar */
