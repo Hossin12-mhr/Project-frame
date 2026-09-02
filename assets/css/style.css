@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "farazsoft";
+    src: url('../fonts/farazsoft_0.woff2'); /* آدرس فایل فونت شما */
+}
+
+
 html {
     scroll-behavior: smooth;
 }
